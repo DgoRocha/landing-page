@@ -1,0 +1,152 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(img/back-2.png);
+    margin: 0;
+    padding: 0;
+   /*  background: rgb(249,249,249);
+    background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(222,222,222,1) 50%, rgba(240,240,240,1) 100%); */
+}
+
+ul li {
+ text-decoration: none;
+ display: inline-block;
+ padding: 1em 1em;
+ text-align: center;
+ background: rgb(127,121,255);
+ background: linear-gradient(90deg, rgb(122, 120, 120) 0%, rgb(121, 121, 121) 50%, rgba(119, 119, 119,1) 100%);
+ color: rgb(255, 255, 255);
+ border-radius: 1em;
+}
+
+ul li:hover {
+    background: rgb(141, 141, 235);
+}
+
+.fullList {
+        text-align: center;
+        margin-top: 0.2%;
+}
+
+.firstList{
+    display: inline-block;
+    margin-top: 0.3%;
+    background: rgba(63, 63, 63, 0.9);
+    padding: 0.7%;
+    border-radius: 1em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainTitle {
+    text-align: center;
+    display: block;
+    background: #3f3f3f;
+    padding: 1.5%;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.mainTitle:hover {
+  animation: bounce;
+  animation-duration: 2.5s;
+}
+
+.fullDescription {
+    margin-top: 0%;
+}
+
+.firstPicture {
+    margin-top: 5%;
+    margin-bottom: -1.5%;
+    margin-left: 5%;
+    align-items: left;
+    justify-content: left;
+    width: 0em;
+    height: 0em;
+}
+
+#firstDescription {
+    background: #c7c7c7;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+.secPicture {
+    margin-top: 3%;
+    margin-left: 72%;
+    align-items: right;
+    justify-content: right;
+    width: 0em;
+    height: 0em;
+}
+
+#secDescription {
+    background: #c7c7c7;
+    margin-left: 5%;
+    margin-right: 30%;
+    margin-bottom: 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+.curriculoSection {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+#titleCurriculo {
+    /* background: #3f3f3f; */
+    background: #3f3f3f;
+    color: white;
+    padding: 1%;
+}
+
+#titleCurriculo:hover {
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+footer {
+    background: url(img/back1.png);
+    padding: 1em ;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#devFooter {
+    font-size: 110%;
+}
+
+#devFooter:hover {
+    animation: bounce;
+    animation-duration: 2s;
+    color: aqua;
+    filter: brightness(3em);
+}
+
+#emailFooter {
+    text-decoration: none;
+    color: white;
+}
+
+#emailFooter:hover {
+    animation: bounce;
+    animation-duration: 2.5s;
+}
+
+#subtitleContact {
+    font-size: 90%;
+    color: white;
+}
+
+#contactFooter {
+    text-decoration: none;
+    color: rgb(100, 255, 82);
+}
